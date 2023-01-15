@@ -1,0 +1,239 @@
+.container{
+     margin-left: 65px;
+     margin-right: 65px; 
+}
+
+.first-container {
+     display: flex;
+     align-items: center;
+}
+
+#main-header {
+     flex: 1;
+     float: left;
+     width: 30%;
+}
+
+#navbar {
+     flex-direction: 1;
+     float: right;
+     width: 70%;
+}
+
+#navbar li{
+     display: inline;
+     padding: 1px 20px;
+     font-size: 18px;
+     text-align: center;
+     align-items: center;
+}
+
+#navbar:hover {
+     color: #333;
+}
+
+.btn {
+     background-color: skyblue;
+     border: none;
+     color: white;
+     border-radius: 10px;
+     padding: 10px 25px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+}
+
+.second-container {
+     display: flex;
+}
+
+.second-container h2{
+     font-size: 35px;
+}
+
+.fourth-container h1{
+     text-align: center;
+     /* margin-bottom: 50px; */
+}
+
+.fourth-container img, p{
+     display: flex;
+}
+
+.fourth-container div{
+     padding: 10px;
+}
+
+#side-img {
+     float: left;
+     width: 50%;
+     justify-content: center;
+}
+
+.second-container aside{
+     float: right;
+     width: 50%;
+}
+.third-container {
+     display: flex;
+}
+
+.fourth-container img, h5, p{
+     display: flex;
+}
+
+.box-1 {
+     flex: 1;
+}
+
+.box-2 {
+     flex: 1;
+}
+
+.box-3 {
+     flex: 1;
+}
+
+.small-box-1 {
+     float: left;
+     width: 30%;
+     flex: 1;
+     display: flex;
+}
+
+.small-box-2 {
+     float: right;
+     width: 30%;
+     flex: 1;
+     display: flex;
+}
+
+.small-box-3 {
+     float: right;
+     width: 30%;
+     flex: 1;
+     display: flex;
+}
+
+.small-box-4 {
+     float: left;
+     width: 30%;
+     flex: 1;
+     display: flex;
+}
+
+.small-box-5 {
+     float: right;
+     width: 30%;
+     flex: 1;
+     display: flex;
+}
+
+.small-box-6 {
+     float: right;
+     width: 30%;
+     flex: 1;
+     display: flex;
+}
+/* .small-box-4 {
+     float: left;
+     width: 30%;
+     flex: 1;
+}
+
+.small-box-5 {
+     float: right;
+     width: 30%;
+     flex: 1;
+}
+
+.small-box-6 {
+     display: flex;
+     float: right;
+     width: 30%;
+     flex: 1;
+} */
+
+.footer {
+     background-color: black;
+     color: white;
+     font-size: 15px;
+     text-decoration: none;
+     display: flex;
+     margin: auto;
+     padding: 25px;
+}
+
+.contact {
+     float: left;
+     width: 25%;
+}
+
+.links {
+     float: right;
+     width: 25%;
+}
+
+a:link {
+     text-decoration: none;
+}
+
+a:visited {
+     text-decoration: none;
+}
+
+a:hover {
+     text-decoration: underline;
+}
+
+.blog {
+     float: right;
+     width: 25%;
+}
+
+.newsletter {
+     float: right;
+     width: 25%;
+}
+
+#main-footer {
+     background: #333;
+     color: #fff;
+     text-align: center;
+     padding: 20px;
+}
+
+.newsletter input {
+     background-color: #333;
+     
+}
+.clearfix::after {
+     content: "";
+     clear: both;
+     display: table;
+}
+
+.small-box-1 {
+     float: left;
+}
+
+.small-box-2 {
+     float: left;
+}
+
+.small-box-3 {
+     float: left;
+}
+
+.small-box-4 {
+     float: left;
+}
+
+.small-box-5 {
+     float: left;
+}
+
+.small-box-6 {
+     float: left;
+}
